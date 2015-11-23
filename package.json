@@ -1,0 +1,29 @@
+{
+  "name": "react-tilemap",
+  "version": "1.0.0",
+  "description": "Tile maps in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frostney/react-tilemap.git"
+  },
+  "keywords": [
+    "tile",
+    "tilemap",
+    "tiles",
+    "react"
+  ],
+  "author": "Johannes Stein",
+  "license": "(Unlicense OR MIT)",
+  "bugs": {
+    "url": "https://github.com/frostney/react-tilemap/issues"
+  },
+  "homepage": "https://github.com/frostney/react-tilemap#readme",
+  "dependencies": {
+    "tilelogic": "^1.0.0"
+  }
+}
