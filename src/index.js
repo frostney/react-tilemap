@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component, PropTypes } from 'react';
 
 import TileLogic from 'tilelogic';
 
@@ -26,15 +26,11 @@ class Tilemap extends Component {
   constructor(props) {
     super(props);
 
-    this.tileLogic = new TileLogic(props.width, props.height, this.props.tiles);
+    this.tileLogic = new TileLogic(props.width, props.height, props.tiles);
   }
 
   componentWillReceiveProps(nextProps) {
-    
-  }
-
-  componentShouldUpdate() {
-
+    this.tileLogic = new TileLogic(nextProps.width, nextProps.height, nextProps.tiles);
   }
 
   render() {
